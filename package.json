@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-sentry-native",
+  "version": "0.1.0",
+  "description": "Send to sentry errors trigger by container",
+  "cordova": {
+    "id": "cordova-plugin-sentry-native",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/don/cordova-plugin-hello.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "sentry",
+    "android",
+    "cordova-android"
+  ],
+  "author": "Steven Koch",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/don/cordova-plugin-hello/issues"
+  },
+  "homepage": "https://github.com/don/cordova-plugin-hello#readme"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-sentry-native"
+        version="1.0.0-beta">
+
+  <name>cordova-plugin-sentry-native</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="sentry">
+        <param name="android-package" value="com.lafourchette.plugin.sentry"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Sentry.java" target-dir="src/com/lafourchette/plugin/"/>
+  </platform>
+
+</plugin>
